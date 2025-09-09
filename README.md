@@ -221,3 +221,30 @@ This project is licensed under the MIT License.
 ## Support
 
 For questions and support, please open an issue in the repository.
+
+
+# 1. Navigate to your project directory
+cd C:\MAAK-LLM-JAVA
+
+# 2. Initialize git repository
+git init
+
+# 3. Add all files to git
+git add .
+
+# 4. Create initial commit
+git commit -m "Initial commit: LLM Transformer Java Spring Boot implementation
+
+- Complete Transformer architecture with multi-head attention
+- REST API endpoints for text generation and processing
+- Swagger/OpenAPI documentation
+- CORS support enabled
+- Comprehensive test suite
+- Docker containerization support
+- Model persistence capabilities"
+
+# 5. Add remote origin to GitHub repository
+git remote add origin https://github.com/maaksystemsllc/maak-llm-java.git
+
+# 6. Push to GitHub repository
+git push -u origin main

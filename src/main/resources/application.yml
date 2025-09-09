@@ -71,3 +71,19 @@ async:
   core-pool-size: 4
   max-pool-size: 8
   queue-capacity: 500
+
+# Training configuration
+training:
+  learning-rate: 0.0001
+  batch-size: 32
+  epochs: 10
+  max-sequence-length: 512
+  weight-decay: 0.01
+  gradient-clipping: 1.0
+  warmup-steps: 4000
+  save-every-steps: 1000
+  evaluate-every-steps: 500
+  data-path: "data/training"
+  checkpoint-path: "checkpoints"
+  use-gradient-accumulation: true
+  accumulation-steps: 4
